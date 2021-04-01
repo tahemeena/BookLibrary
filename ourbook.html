@@ -8,15 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./booklibrary.js">
     <title>Book Library</title>
 
 
 </head>
 
 <body>
-
-
 
     <section class="header-section">
         <nav class="navbar navbar-expand-lg navbar-light bg-danger">
@@ -37,7 +35,7 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="our-book" onclick="myFunction()" href="#">Our Books</a>
+                            <a class="nav-link" href="#" onclick="ourBook()">Our Books</a>
 
                         </li>
                         <li class="nav-item">
@@ -55,41 +53,12 @@
                 </div>
             </div>
         </nav>
-
-
-
     </section>
     <section class="hero-img"></section>
     <section class="about-us"></section>
-    <section class="our-books">
-        <div class="list-item">
-            <!-- <ul class="list">
-                <label for="name" class="table">Name  </label>
-                <label for="author" class="table">Author  </label>
-                <label for="price" class="table">Price  </label>
-                <label for="edition" class="table">Editon  </label>
-
-
-
-            </ul> -->
-            <table class="table">
-                <thead class="thead-dark">
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Book Name</th>
-                        <th scope="col">Author</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Edition</th>
-                    </tr>
-                </thead>
-                <tbody class="book-table">
-                </tbody>
-            </table>
-        </div>
-    </section>
+    <section class="our-books"></section>
     <section class="footer"></section>
 
-    <script src="./booklibrary.js"></script>
 </body>
 
 </html>

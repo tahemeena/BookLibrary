@@ -12,3 +12,37 @@
 .navbar-space {
     flex-grow: 0;
 }
+
+.list {
+    border: 1px solid black;
+}
+
+.item {
+    display: flex;
+    border: 1px solid red;
+}
+
+.list-name {
+    color: green;
+    border: red;
+    flex-direction: row;
+}
+
+.author,
+.price,
+.edition,
+.list-name {
+    border-right: 10px;
+    color: green;
+    display: inline;
+    padding: 39px;
+    margin: 10px;
+    border-right: 1px solid black;
+}
+
+.table {
+    display: inline;
+    padding: 30px;
+    margin: 10px;
+    border-right: 1px solid black;
+}
